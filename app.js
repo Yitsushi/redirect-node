@@ -1,7 +1,8 @@
 var http = require('http');
 
 var forwardings = {
-  'plus.folyam.info': 'http://gplus.to/folyam'
+  'plus.folyam.info': 'http://gplus.to/folyam',
+  'hatvanimagnosklub.hu': 'http://www.hatvanimagnosklub.hu'
 }
 
 http.createServer(function (req, res) {
