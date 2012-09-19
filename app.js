@@ -1,9 +1,5 @@
-var http = require('http');
-
-var forwardings = {
-  'plus.folyam.info': 'http://gplus.to/folyam',
-  'hatvanimagnosklub.hu': 'http://www.hatvanimagnosklub.hu'
-}
+var http        = require('http'),
+    forwardings = require('./redirects');
 
 http.createServer(function (req, res) {
   var hostname = req.headers.host.replace(/:.*/, "");
