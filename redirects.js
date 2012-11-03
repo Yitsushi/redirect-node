@@ -14,6 +14,11 @@ module.exports.url = {
   'plus.folyam.info': {
     '/yitsushi'   : 'https://plus.google.com/u/0/104695723888883478740'
   },
+  'dev.folyam.info': {
+    '/yitsushi'   : 'https://plus.google.com/u/0/104695723888883478740',
+    '/bitbucket'  : 'https://bitbucket.org/folyam',
+    '/github'     : 'https://github.com/Folyam'
+  },
   '*': {
     '/+'          : 'http://plus.google.com',
     '/github'     : 'https://github.com/Yitsushi/redirect-node'
