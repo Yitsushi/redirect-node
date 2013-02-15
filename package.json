@@ -1,6 +1,6 @@
 {
   "name": "redirect-node",
-  "description": "hangle your domain as you want. Redirect domain, subdomain and path where you want."
+  "description": "hangle your domain as you want. Redirect domain, subdomain and path where you want.",
   "version": "1.0.0",
   "dependencies": {
   },
